@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task3.9</title>
+	<script>
+		var result = 0;
+		var firstNumber = parseInt(prompt("Enter first number:"));
+		var secondNumber = parseInt(prompt("Enter second number"));
+		var number = parseInt(prompt("Choose function by entering number below: 1 - 'Addition', 2 - 'Substraction', 3 - 'Multiplication', 4 - 'Division'"));
+		function ads(first, second){
+			result = first + second;
+			document.write(result);
+		}
+
+		function sub(first, second){
+			result = first - second;
+			document.write(result);
+		}
+
+		function mul(first, second){
+			result = first * second;
+			document.write(result);
+		}
+
+		function div(first, second){
+			if(second==0){
+				document.write("Divider can't equal to zero");
+			}else{
+				result = first / second;
+				document.write(result);
+			}
+		}
+
+		switch(number){
+			case 1:
+			ads(firstNumber, secondNumber);
+			break;
+
+			case 2:
+			sub(firstNumber, secondNumber);
+			break;
+
+			case 3:
+			mul(firstNumber, secondNumber);
+			break;
+
+			case 4:
+			div(firstNumber, secondNumber);
+			break;
+
+			default:
+			alert("You have shosen nonexistent function");
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

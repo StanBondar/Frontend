@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task3.10</title>
+	<script>
+		var number = parseInt(prompt("Enter number below:"));
+
+		function checker(number){
+			if(number%1==0&&number%number==0&&number>1){
+				document.write("It's Prime number.");
+			}else{
+				document.write("It's not Prime number.");
+			}
+
+			document.write("</br>");
+
+			if(number%2==0&&number%5==0&&number%3==0&&number%6==0&&number%9==0){
+				document.write("Second condition is satisfied");
+			}else{
+				document.write("Second condition is not satisfied");
+			}
+		}
+
+		checker(number);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

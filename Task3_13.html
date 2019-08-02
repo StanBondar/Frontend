@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task#3.13</title>
+	<script>
+		var first = Number(prompt("Enter first number(global):"));
+		var second = Number(prompt("Enter second number(global):"));
+
+		function calc(first, second){
+			document.write("Sum of global variables = "+(first+second)+"</br>");
+			var first = Number(prompt("Enter first number(local):"));
+			var second = Number(prompt("Enter second number(local):"));
+			document.write("Sum of local variables = "+(first+second));
+		}
+
+		calc(first, second);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task#3.12</title>
+	<script>
+		var first = Number(prompt("Enter first number:"));
+		var second = Number(prompt("Enter second number:"));
+
+		function sqrt(first, second){
+			if(isNaN(first)||isNaN(second)){
+				document.write("Wow, wow. It's don't looks like numbers. Check it again.")
+			}else{
+			var result = Math.sqrt(first+second);
+			document.write("Square root of the sum of given numbers = "+result);
+			}
+		}
+		sqrt(first, second);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

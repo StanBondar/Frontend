@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Solar system navigator</title>
+	<script>
+		//All information about natural satelites in the Solar system provided by https://www.sscadda.com/planets-and-their-satellites-ga-study-notes
+		var name = prompt("Enter name of heavenly body below with capital letter:");
+		if(name == "Mercury"|| name =="Venus"){
+			document.write("Planet before Earth");
+		}else if(name =="Mars" || name =="Jupiter" || name =="Saturn" || name =="Uranus" || name =="Neptune"){
+			document.write("Planet after Earth");
+		}else if(name =="Moon" || name =="Phobos" || name =="Deimos" || name =="Ganymede" || name=="Callisto" || name=="Titan" || name=="Miranda" || name=="Ariel" || name=="Umbriel" || name=="Titania" || name=="Oberon" || name=="Triton"){
+			document.write("It's natural satelite.")
+		}else{
+			document.write("No such heavenly body in the Solar system or check the correct spelling of the object.");
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

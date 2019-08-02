@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task2.5</title>
+	<script>
+		var time = prompt("Enter current time in 24h format below:");
+		var eating = confirm("Did you have some meal today?");
+		if(time<10){
+			document.write("Good morning.");
+		}else if(time<20){
+			document.write("Good day.");
+		}else{
+			document.write("Good evening.");
+		}
+
+		var meal = (eating) ? document.write("</br>"+"Good!") : document.write("</br>"+"Bon Appetit!");
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

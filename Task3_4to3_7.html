@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HomeWork#3.4-#3.7</title>
+	<script>
+		//Task3.4
+		document.write("Task 3.4"+"</br>"+"[");
+		var arr1 = new Array(10);
+		for(var i=0; i<10; i++){
+			arr1[i]=(Math.floor(Math.random() * 100));
+		}
+		document.write(arr1+"]"+"</br>");
+		var arr2 = arr1.splice(2);
+		document.write("["+arr1+"]"+"<hr>");
+		//Task3.5
+		document.write("Task3.5"+"</br>");
+		arr2.splice(0,0, "first", "second", "third");
+		document.write("["+arr2+"]"+"<hr>");
+		//Task3.6
+		document.write("Task3.6"+"</br>");
+		var middle = (arr2.length-1)/2;
+		arr2.splice(middle-1, 3);
+		document.write("["+arr2+"]"+"<hr>");
+		//Task3.7
+		document.write("Task3.7"+"</br>");
+		arr2.concat(arr1);
+		document.write("["+arr2+"]"+"</br>");
+		document.write("["+arr2.reverse()+"]");
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
