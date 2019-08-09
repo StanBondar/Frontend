@@ -1,0 +1,41 @@
+h1{
+	color: red;
+}
+
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+
+.block{
+	background: #001bff;
+	padding: 0;
+	width: 100px;
+	height: 75px;
+	color: #ffffff;
+	margin: 0px 0px 70px 0px;
+}
+
+p.new span{
+	color: red;
+}
+
+h2{
+	background: green;
+	color: #fff;
+	padding: 5px;
+}
+
+h2.new1{
+background: green;
+padding: 45px 30px;
+color: #fff;
+/*border: 10px solid yellow;*/
+}
+
+p.new2{
+	padding-left: 70px;
+}
+
+li{
+	border: 1px solid black;
+}
