@@ -1,0 +1,15 @@
+.div{
+	position: relative;
+	background-color: purple;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	padding: 10px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.form{
+	text-align: center;
+}
